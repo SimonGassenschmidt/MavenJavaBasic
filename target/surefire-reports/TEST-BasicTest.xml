@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="BasicTest" time="0.087" tests="10" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="16"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Simon\Documents\NetBeansProjects\mavenproject1\target\test-classes;C:\Users\Simon\Documents\NetBeansProjects\mavenproject1\target\classes;C:\Users\Simon\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\Simon\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Simon\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Simon\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\Simon\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\Simon\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="user.country" value="DE"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-16\bin"/>
+    <property name="sun.java.command" value="C:\Users\Simon\AppData\Local\Temp\surefire4434881651338665740\surefirebooter303512174054463573.jar C:\Users\Simon\AppData\Local\Temp\surefire4434881651338665740 2021-04-02T17-55-59_913-jvmRun1 surefire11214284782490575497tmp surefire_010373681586408220706tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Simon\Documents\NetBeansProjects\mavenproject1\target\test-classes;C:\Users\Simon\Documents\NetBeansProjects\mavenproject1\target\classes;C:\Users\Simon\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\Simon\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Simon\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Simon\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\Simon\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\Simon\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Simon"/>
+    <property name="user.language" value="de"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-03-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-16"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Simon\Documents\NetBeansProjects\mavenproject1"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Simon\AppData\Local\Temp\surefire4434881651338665740\surefirebooter303512174054463573.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="16+36-2231"/>
+    <property name="user.name" value="Simon"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="D:\netbeans\NetBeans-12.0\netbeans\java\maven-nblib\netbeans-eventspy.jar;D:\netbeans\NetBeans-12.0\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\Simon\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Simon\AppData\Local\Temp\"/>
+    <property name="java.version" value="16"/>
+    <property name="user.dir" value="C:\Users\Simon\Documents\NetBeansProjects\mavenproject1"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-16\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\Sybex\Profi-Bewerbungen;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Skype\Phone\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\Simon\AppData\Local\Microsoft\WindowsApps;;C:\Users\Simon\AppData\Local\Programs\Microsoft VS Code\bin;D:\python\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="16+36-2231"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="60.0"/>
+  </properties>
+  <testcase name="testGetMultiplication" classname="BasicTest" time="0.031">
+    <system-out><![CDATA[getMultiplication
+]]></system-out>
+  </testcase>
+  <testcase name="testGetSumofIntArray" classname="BasicTest" time="0.001">
+    <system-out><![CDATA[getSumofIntArray
+]]></system-out>
+  </testcase>
+  <testcase name="testMain" classname="BasicTest" time="0.001">
+    <system-out><![CDATA[main
+]]></system-out>
+  </testcase>
+  <testcase name="testGetNegativeSumofIntArray" classname="BasicTest" time="0.001">
+    <system-out><![CDATA[getNegativeSumofIntArray
+]]></system-out>
+  </testcase>
+  <testcase name="testGetAddition" classname="BasicTest" time="0.001">
+    <system-out><![CDATA[getAddition
+]]></system-out>
+  </testcase>
+  <testcase name="testGetSubstraction" classname="BasicTest" time="0.001">
+    <system-out><![CDATA[getSubstraction
+]]></system-out>
+  </testcase>
+  <testcase name="testGetModulo" classname="BasicTest" time="0.001">
+    <system-out><![CDATA[getModulo
+]]></system-out>
+  </testcase>
+  <testcase name="testGetappendStringwithSpace" classname="BasicTest" time="0.009">
+    <system-out><![CDATA[getappendStringwithSpace
+]]></system-out>
+  </testcase>
+  <testcase name="testGetSubstractionElementbyElementArray" classname="BasicTest" time="0.001">
+    <system-out><![CDATA[getSubstractionElementbyElementArray
+]]></system-out>
+  </testcase>
+  <testcase name="testGetDivision" classname="BasicTest" time="0.001">
+    <system-out><![CDATA[getDivision
+]]></system-out>
+  </testcase>
+</testsuite>
