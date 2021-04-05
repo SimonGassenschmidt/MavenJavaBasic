@@ -58,7 +58,10 @@ public class Basic {
                 //System.out.println(Basic.isOdd(4));
                 //System.out.println(Basic.isOdd(3));
                 
-                //System.out.println(Basic.getFibunaci(10));
+                //System.out.println(Basic.getFibonacci(10));
+                
+               //System.out.println(Basic.getNthFibonacciUnderValue(4000000));
+               //System.out.println(Basic.getSumofEvenValuedTermsFibonacciUnder4Mil());
 	}
 	public static int getAddition (int a, int b) {
 		return a+b;
@@ -159,7 +162,7 @@ public class Basic {
         public static boolean isOdd(int value) {
             return !Basic.isEven(value);
         }
-        public static int getFibunaci (int nth) {
+        public static int getFibonacci (int nth) {
             if(nth == 0) {
                 return 0;
             }
@@ -168,8 +171,38 @@ public class Basic {
             }
             else {
                 int sum = 0;
-                sum = Basic.getFibunaci(nth-1)+Basic.getFibunaci(nth-2);
+                sum = Basic.getFibonacci(nth-1)+Basic.getFibonacci(nth-2);
                 return sum;
             }
+        }
+        /*
+        * By considering the terms in the Fibonacci sequence whose values do not
+        * exceed 4_000_000 , find the sum of the even valued terms
+        */
+        public static int getSumofEvenValuedTermsFibonacciUnder4Mil (){
+            int maximalterm = 4_000_000;
+            int maximalnth = 34;
+            int sum = 0;
+            for(int i = 0; i <= 34; i++){
+                int calsum = Basic.getFibonacci(i);
+                if(Basic.isEven(calsum)){
+                    sum += calsum;
+                }
+            }
+            
+            return sum;
+        }
+        public static int getNthFibonacciUnderValue(int value){
+            int nth = 0;
+            for(int i = 0; i < value; i++ ){
+                int calcsum = Basic.getFibonacci(i);
+                if(value < calcsum){
+                    return i;
+                }
+            }
+            return nth;
+        }
+        public static boolean isPrime(int value){
+            return false;
         }
 }
