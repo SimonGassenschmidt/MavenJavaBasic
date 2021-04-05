@@ -179,5 +179,15 @@ public class BasicTest {
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
     }
-    
+    @Test
+    public void testgetMaximumOfSubarray(){
+        System.out.print("getMaximumOfSubarray");
+        int[] values =
+        {-180, -170, -190, -120, 0, 40, -30, 50, 60, -40, -30, -30, 0, -10, -20, 20, 40, 50, 20,
+            -40, -30, -30, 40, 100, 240, 260, 180, 200, 280, 290, 260, 240, 250, 270, 240, 200, 120,
+            30, -20, -80, 20, 30, 30, 0, -20, -40, -60, -80, -120, -160, -180, -100};
+        int expResult = 3230;
+        int result = Basic.getMaximumOfSubarray(values);
+        assertEquals(expResult, result);
+    }
 }

@@ -41,6 +41,12 @@ public class Basic {
 		
 		double e = 424_499.2392;
 		//System.out.println(e);
+                
+                 int[] values_2 =
+        {-180, -170, -190, -120, 0, 40, -30, 50, 60, -40, -30, -30, 0, -10, -20, 20, 40, 50, 20,
+            -40, -30, -30, 40, 100, 240, 260, 180, 200, 280, 290, 260, 240, 250, 270, 240, 200, 120,
+            30, -20, -80, 20, 30, 30, 0, -20, -40, -60, -80, -120, -160, -180, -100};
+                 //System.out.println(Basic.getMaximumOfSubarray(values_2));
 	}
 	public static int getAddition (int a, int b) {
 		return a+b;
@@ -83,4 +89,19 @@ public class Basic {
 		String c = a + " " + b;
 		return c;
 	}
+        public static int getMaximumOfSubarray(int[] values) {
+            int maximum = 0;
+            int calcmax = 0;
+            
+            for(int value : values) {
+                calcmax += value;
+                if (calcmax < 0) {
+                    calcmax = 0;
+                }
+                if (calcmax > maximum) {
+                    maximum = calcmax;
+                }
+            }
+            return maximum;
+        }
 }
